@@ -40,11 +40,11 @@ packer.init {
 
 -- Install your plugins here
 return packer.startup(function(use)
-  use "wbthomason/packer.nvim" 
-  use "nvim-lua/popup.nvim" 
-  use "nvim-lua/plenary.nvim" 
-  use "windwp/nvim-autopairs" 
-  use "numToStr/Comment.nvim" 
+  use "wbthomason/packer.nvim"
+  use "nvim-lua/popup.nvim"
+  use "nvim-lua/plenary.nvim"
+  use "windwp/nvim-autopairs"
+  use "numToStr/Comment.nvim"
   use "kyazdani42/nvim-web-devicons"
   use "kyazdani42/nvim-tree.lua"
   use "akinsho/bufferline.nvim"
@@ -55,7 +55,7 @@ return packer.startup(function(use)
   use "lewis6991/impatient.nvim"
   use "lukas-reineke/indent-blankline.nvim"
   use "goolord/alpha-nvim"
-  use "antoinemadec/FixCursorHold.nvim" 
+  use "antoinemadec/FixCursorHold.nvim"
   use "folke/which-key.nvim"
   use "unblevable/quick-scope"
   use "phaazon/hop.nvim"
@@ -80,10 +80,10 @@ return packer.startup(function(use)
   use "preservim/tagbar"
   use "nyngwang/NeoZoom.lua"
   use "SmiteshP/nvim-gps"
-  
+
   -- Setup of LSP, DAP, etc
   use { "williamboman/mason.nvim" }
-  
+
   use { "michaelb/sniprun", run = "bash ./install.sh" }
   use {
     "iamcco/markdown-preview.nvim",
@@ -107,11 +107,11 @@ return packer.startup(function(use)
   use "folke/tokyonight.nvim"
 
   -- cmp plugins
-  use "hrsh7th/nvim-cmp" 
-  use "hrsh7th/cmp-buffer" 
-  use "hrsh7th/cmp-path" 
-  use "hrsh7th/cmp-cmdline" 
-  use "saadparwaiz1/cmp_luasnip" 
+  use "hrsh7th/nvim-cmp"
+  use "hrsh7th/cmp-buffer"
+  use "hrsh7th/cmp-path"
+  use "hrsh7th/cmp-cmdline"
+  use "saadparwaiz1/cmp_luasnip"
   use "hrsh7th/cmp-nvim-lsp"
   use "hrsh7th/cmp-emoji"
   use "hrsh7th/cmp-nvim-lua"
