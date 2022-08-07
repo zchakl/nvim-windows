@@ -40,22 +40,33 @@ dap.configurations.python = {
     end;
   },
 }
+
 dap.adapters.lldb = {
   type = 'executable',
-  command = '/usr/bin/lldb', -- adjust as needed
+  command = '/usr/bin/lldb-vscode',
   name = "lldb"
+}
+
+dap.adapters.codelldb = {
+  type = 'server',
+  port = "13000",
+  name = "codelldb",
+  executable = {
+    command = '/bin/codelldb',
+    args = {"--port", "13000"},
+  }
 }
 
 dap.configurations.cpp = {
   {
-    name = "Launch",
-    type = "lldb",
+    name = "Launch File",
+    type = "codelldb",
     request = "launch",
     program = function()
       return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
     end,
     cwd = '${workspaceFolder}',
-    stopOnEntry = false,
+    stopOnEntry = true,
     args = {},
 
     -- if you change `runInTerminal` to true, you might need to change the yama/ptrace_scope setting:
@@ -72,8 +83,6 @@ dap.configurations.cpp = {
   },
 }
 
-
 -- If you want to use this for rust and c, add something like this:
-
 dap.configurations.c = dap.configurations.cpp
 dap.configurations.rust = dap.configurations.cpp
