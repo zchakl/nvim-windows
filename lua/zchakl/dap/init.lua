@@ -50,9 +50,8 @@ dap.adapters.lldb = {
 dap.adapters.codelldb = {
   type = 'server',
   port = "13000",
-  name = "codelldb",
   executable = {
-    command = '/bin/codelldb',
+    command = '/usr/bin/codelldb',
     args = {"--port", "13000"},
   }
 }
@@ -60,26 +59,13 @@ dap.adapters.codelldb = {
 dap.configurations.cpp = {
   {
     name = "Launch File",
-    type = "codelldb",
+    type = "lldb",
     request = "launch",
     program = function()
       return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
     end,
     cwd = '${workspaceFolder}',
-    stopOnEntry = true,
-    args = {},
-
-    -- if you change `runInTerminal` to true, you might need to change the yama/ptrace_scope setting:
-    --
-    --    echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
-    --
-    -- Otherwise you might get the following error:
-    --
-    --    Error on launch: Failed to attach to the target process
-    --
-    -- But you should be aware of the implications:
-    -- https://www.kernel.org/doc/html/latest/admin-guide/LSM/Yama.html
-    runInTerminal = false,
+    stopOnEntry = false,
   },
 }
 
