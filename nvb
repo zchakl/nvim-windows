@@ -1,0 +1,296 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.034  000.034: --- NVIM STARTING ---
+038.294  038.261: locale set
+047.671  009.377: inits 1
+048.107  000.436: window checked
+048.128  000.021: parsing arguments
+053.068  004.940: expanding arguments
+053.199  000.131: inits 2
+056.892  003.693: init highlight
+056.900  000.009: waiting for UI
+083.965  027.064: done waiting for UI
+084.206  000.241: init screen for UI
+084.300  000.094: init default mappings
+084.426  000.126: init default autocommands
+111.322  000.261  000.261: sourcing C:\Program Files\Neovim\share\nvim\runtime\ftplugin.vim
+115.629  000.207  000.207: sourcing C:\Program Files\Neovim\share\nvim\runtime\indent.vim
+266.632  086.079  086.079: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\tokyonight.nvim\colors\tokyonight.lua
+463.347  346.216  260.137: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\init.lua
+463.667  032.556: sourcing vimrc file(s)
+470.505  000.239  000.239: sourcing C:\Program Files\Neovim\share\nvim\runtime\filetype.lua
+488.158  000.175  000.175: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\LuaSnip\ftdetect\snippets.vim
+491.549  000.158  000.158: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-razor\ftdetect\razor.vim
+493.086  000.212  000.212: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-solidity\ftdetect\solidity.vim
+498.361  026.989  026.445: sourcing C:\Program Files\Neovim\share\nvim\runtime\filetype.vim
+504.484  000.318  000.318: sourcing C:\Program Files\Neovim\share\nvim\runtime\syntax\synload.vim
+504.820  004.814  004.496: sourcing C:\Program Files\Neovim\share\nvim\runtime\syntax\syntax.vim
+530.514  000.625  000.625: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\gzip.vim
+531.479  000.157  000.157: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\health.vim
+532.513  000.251  000.251: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\man.vim
+537.942  000.771  000.771: sourcing C:\Program Files\Neovim\share\nvim\runtime\pack\dist\opt\matchit\plugin\matchit.vim
+538.737  005.401  004.630: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\matchit.vim
+540.019  000.433  000.433: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\matchparen.vim
+541.869  001.054  001.054: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\netrwPlugin.vim
+544.253  000.136  000.136: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data/rplugin.vim
+544.376  001.677  001.542: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\rplugin.vim
+545.524  000.299  000.299: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\shada.vim
+546.583  000.209  000.209: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\spellfile.vim
+547.884  000.417  000.417: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\tarPlugin.vim
+549.187  000.339  000.339: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\tohtml.vim
+550.707  000.227  000.227: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\tutor.vim
+552.033  000.455  000.455: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\zipPlugin.vim
+559.430  005.797  005.797: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\plugin\packer_compiled.lua
+561.229  048.178: loading rtp plugins
+582.942  002.687  002.687: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\Comment.nvim\plugin\Comment.lua
+589.453  004.238  004.238: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\dial.nvim\plugin\dial.vim
+592.158  000.369  000.369: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\FixCursorHold.nvim\plugin\fix_cursorhold_nvim.vim
+598.785  001.873  001.873: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\hop.nvim\plugin\hop.vim
+602.768  000.900  000.900: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\indent-blankline.nvim\plugin\indent_blankline.vim
+681.156  075.287  075.287: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\LuaSnip\plugin\luasnip.vim
+687.647  002.483  002.483: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\neovim-session-manager\plugin\session_manager.lua
+691.282  000.629  000.629: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\NeoZoom.lua\plugin\neo-zoom.lua
+693.784  000.415  000.415: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nlsp-settings.nvim\plugin\nlspsetting.vim
+697.625  000.260  000.260: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-bqf\plugin\bqf.vim
+704.014  002.792  002.792: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-cmp\plugin\cmp.lua
+706.427  000.300  000.300: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-colorizer.lua\plugin\colorizer.vim
+709.467  000.389  000.389: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-dap\plugin\dap.lua
+714.117  002.453  002.453: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-gps\plugin\nvim-gps.vim
+717.157  000.505  000.505: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-lsp-installer\plugin\nvim-lsp-installer.vim
+720.379  000.470  000.470: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-lspconfig\plugin\lspconfig.lua
+723.567  000.337  000.337: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-transparent\plugin\transparent.vim
+728.636  002.087  002.087: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-treesitter\plugin\nvim-treesitter.lua
+731.135  000.673  000.673: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-treesitter-context\plugin\treesitter-context.vim
+734.954  001.058  001.058: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-ts-autotag\plugin\nvim-ts-autotag.vim
+737.789  000.578  000.578: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-ts-context-commentstring\plugin\ts_context_commentstring.vim
+740.122  000.211  000.211: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-web-devicons\plugin\nvim-web-devicons.vim
+743.381  000.470  000.470: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\plenary.nvim\plugin\plenary.vim
+746.970  000.812  000.812: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\quick-scope\plugin\quick_scope.vim
+749.758  000.530  000.530: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\registers.nvim\plugin\registers.vim
+752.238  000.208  000.208: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\renamer.nvim\plugin\renamer.vim
+759.987  005.607  005.607: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\sniprun\plugin\sniprun.vim
+764.465  001.967  001.967: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\tagbar\plugin\tagbar.vim
+768.415  000.847  000.847: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\telescope.nvim\plugin\telescope.lua
+770.575  000.269  000.269: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\todo-comments.nvim\plugin\todo.vim
+773.791  000.368  000.368: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\trouble.nvim\plugin\trouble.vim
+776.815  000.399  000.399: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-bbye\plugin\bbye.vim
+780.642  001.732  001.732: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-bookmarks\plugin\bookmark.vim
+787.363  000.269  000.269: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\unmatchit.vim
+791.364  000.161  000.161: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\matchparen.vim
+796.576  000.846  000.846: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup.vim
+801.183  000.403  000.403: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\perf.vim
+806.739  001.160  001.160: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\loader.vim
+812.653  001.263  001.263: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\matchparen.vim
+814.752  031.965  027.864: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\plugin\matchup.vim
+818.773  000.629  000.629: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-startuptime\plugin\startuptime.vim
+821.110  000.207  000.207: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\which-key.nvim\plugin\which-key.vim
+823.695  000.306  000.306: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\zen-mode.nvim\plugin\zen-mode.vim
+824.822  116.284: loading packages
+829.377  000.154  000.154: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\after\plugin\matchit.vim
+840.003  006.479  006.479: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-buffer\after\plugin\cmp_buffer.lua
+842.339  000.636  000.636: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-cmdline\after\plugin\cmp_cmdline.lua
+844.670  000.630  000.630: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-emoji\after\plugin\cmp_emoji.lua
+846.654  000.442  000.442: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-nvim-lsp\after\plugin\cmp_nvim_lsp.lua
+848.630  000.501  000.501: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-nvim-lua\after\plugin\cmp_nvim_lua.lua
+851.317  000.804  000.804: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-path\after\plugin\cmp_path.lua
+854.573  001.192  001.192: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp_luasnip\after\plugin\cmp_luasnip.lua
+866.972  001.133  001.133: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\alpha.lua
+873.081  004.866  004.866: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\autopairs.lua
+874.454  000.346  000.346: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\bookmark.lua
+919.308  043.775  043.775: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\cmp.lua
+925.284  004.506  004.506: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\colorizer.lua
+927.802  001.075  001.075: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\comment.lua
+929.405  000.409  000.409: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\conflict-marker.lua
+930.883  000.348  000.348: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\gist.lua
+933.288  001.497  001.497: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\git-blame.lua
+939.019  004.130  004.130: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\gitlinker.lua
+1010.598  070.376  070.376: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\gitsigns.lua
+1013.735  001.961  001.961: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\hop.lua
+1015.089  000.300  000.300: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\hot-reload.lua
+1016.577  000.469  000.469: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\matchup.lua
+1020.005  002.251  002.251: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\neoscroll.lua
+1079.914  058.702  058.702: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\nvim-tree.lua
+1095.475  014.308  014.308: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\project.lua
+1098.028  001.492  001.492: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\renamer.lua
+1110.945  011.910  011.910: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\session-manager.lua
+1113.041  001.142  001.142: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\sniprun.lua
+1117.008  003.071  003.071: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\spectre.lua
+1121.391  003.417  003.417: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\surround.lua
+1122.918  000.450  000.450: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\symbol-outline.lua
+1124.222  000.422  000.422: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\telescope-file-browser.lua
+1128.445  003.310  003.310: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\telescope.lua
+1133.068  003.558  003.558: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\toggleterm.lua
+1436.530  302.291  302.291: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\treesitter.lua
+1437.999  000.304  000.304: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\ts-context.lua
+1441.588  002.714  002.714: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\whichkey.lua
+1444.242  001.701  001.701: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\zen-mode.lua
+1444.341  062.445: loading after plugins
+1444.425  000.084: inits 3
+1449.920  005.495: reading ShaDa
+1461.207  000.456  000.456: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\ts_engine.vim
+1467.716  000.274  000.274: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\re.vim
+1468.771  018.121: opening buffers
+1473.662  000.718  000.718: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\quick-scope\autoload\quick_scope.vim
+1474.210  004.721: BufEnter autocommands
+1474.218  000.008: editing files in windows
+1487.755  000.559  000.559: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-bookmarks\autoload\bm.vim
+1530.044  055.267: VimEnter autocommands
+1530.056  000.012: UIEnter autocommands
+1619.824  085.141  085.141: sourcing C:\Program Files\Neovim\share\nvim\runtime\autoload\provider\clipboard.vim
+1619.928  004.730: before starting main loop
+1625.573  000.696  000.696: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\pos.vim
+1632.353  001.187  001.187: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\delim.vim
+1638.791  016.981: first screen update
+1638.801  000.010: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.043  000.043: --- NVIM STARTING ---
+038.965  038.922: locale set
+049.630  010.665: inits 1
+050.094  000.464: window checked
+050.123  000.030: parsing arguments
+055.073  004.949: expanding arguments
+055.161  000.088: inits 2
+059.057  003.896: init highlight
+059.068  000.011: waiting for UI
+086.721  027.654: done waiting for UI
+086.785  000.064: init screen for UI
+086.832  000.046: init default mappings
+086.977  000.145: init default autocommands
+115.445  000.267  000.267: sourcing C:\Program Files\Neovim\share\nvim\runtime\ftplugin.vim
+119.942  000.202  000.202: sourcing C:\Program Files\Neovim\share\nvim\runtime\indent.vim
+285.496  092.209  092.209: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\tokyonight.nvim\colors\tokyonight.lua
+488.547  367.031  274.822: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\init.lua
+488.689  034.212: sourcing vimrc file(s)
+498.719  000.347  000.347: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\LuaSnip\ftdetect\snippets.vim
+502.188  000.171  000.171: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-razor\ftdetect\razor.vim
+503.594  000.234  000.234: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-solidity\ftdetect\solidity.vim
+509.784  014.157  013.405: sourcing C:\Program Files\Neovim\share\nvim\runtime\filetype.lua
+511.044  000.148  000.148: sourcing C:\Program Files\Neovim\share\nvim\runtime\filetype.vim
+516.933  000.282  000.282: sourcing C:\Program Files\Neovim\share\nvim\runtime\syntax\synload.vim
+517.307  004.743  004.461: sourcing C:\Program Files\Neovim\share\nvim\runtime\syntax\syntax.vim
+544.524  000.613  000.613: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\gzip.vim
+545.499  000.181  000.181: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\health.vim
+546.688  000.303  000.303: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\man.vim
+551.879  000.784  000.784: sourcing C:\Program Files\Neovim\share\nvim\runtime\pack\dist\opt\matchit\plugin\matchit.vim
+552.603  005.141  004.357: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\matchit.vim
+553.885  000.485  000.485: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\matchparen.vim
+555.747  001.085  001.085: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\netrwPlugin.vim
+559.295  000.244  000.244: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data/rplugin.vim
+559.470  002.750  002.507: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\rplugin.vim
+560.642  000.275  000.275: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\shada.vim
+561.662  000.186  000.186: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\spellfile.vim
+563.249  000.639  000.639: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\tarPlugin.vim
+564.523  000.351  000.351: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\tohtml.vim
+565.561  000.183  000.183: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\tutor.vim
+567.270  000.456  000.456: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\zipPlugin.vim
+576.178  007.420  007.420: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\plugin\packer_compiled.lua
+577.873  050.068: loading rtp plugins
+601.070  002.661  002.661: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\Comment.nvim\plugin\Comment.lua
+609.265  005.936  005.936: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\dial.nvim\plugin\dial.vim
+611.899  000.286  000.286: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\FixCursorHold.nvim\plugin\fix_cursorhold_nvim.vim
+618.186  002.236  002.236: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\hop.nvim\plugin\hop.vim
+621.789  000.926  000.926: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\indent-blankline.nvim\plugin\indent_blankline.vim
+700.974  075.419  075.419: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\LuaSnip\plugin\luasnip.vim
+707.101  002.275  002.275: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\neovim-session-manager\plugin\session_manager.lua
+710.940  000.690  000.690: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\NeoZoom.lua\plugin\neo-zoom.lua
+713.667  000.694  000.694: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nlsp-settings.nvim\plugin\nlspsetting.vim
+717.778  000.193  000.193: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-bqf\plugin\bqf.vim
+722.997  002.534  002.534: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-cmp\plugin\cmp.lua
+725.937  000.305  000.305: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-colorizer.lua\plugin\colorizer.vim
+729.058  000.373  000.373: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-dap\plugin\dap.lua
+733.664  002.513  002.513: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-gps\plugin\nvim-gps.vim
+736.970  000.398  000.398: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-lsp-installer\plugin\nvim-lsp-installer.vim
+739.849  000.389  000.389: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-lspconfig\plugin\lspconfig.lua
+743.547  000.310  000.310: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-transparent\plugin\transparent.vim
+748.562  002.085  002.085: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-treesitter\plugin\nvim-treesitter.lua
+750.934  000.677  000.677: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-treesitter-context\plugin\treesitter-context.vim
+754.052  001.052  001.052: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-ts-autotag\plugin\nvim-ts-autotag.vim
+756.803  000.623  000.623: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-ts-context-commentstring\plugin\ts_context_commentstring.vim
+760.754  000.251  000.251: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\nvim-web-devicons\plugin\nvim-web-devicons.vim
+764.062  000.285  000.285: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\plenary.nvim\plugin\plenary.vim
+767.621  000.667  000.667: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\quick-scope\plugin\quick_scope.vim
+770.204  000.443  000.443: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\registers.nvim\plugin\registers.vim
+772.354  000.215  000.215: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\renamer.nvim\plugin\renamer.vim
+781.761  006.785  006.785: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\sniprun\plugin\sniprun.vim
+786.174  001.851  001.851: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\tagbar\plugin\tagbar.vim
+789.553  000.762  000.762: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\telescope.nvim\plugin\telescope.lua
+793.117  000.280  000.280: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\todo-comments.nvim\plugin\todo.vim
+796.153  000.319  000.319: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\trouble.nvim\plugin\trouble.vim
+798.513  000.341  000.341: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-bbye\plugin\bbye.vim
+802.602  001.855  001.855: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-bookmarks\plugin\bookmark.vim
+810.391  000.337  000.337: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\unmatchit.vim
+815.830  000.248  000.248: sourcing C:\Program Files\Neovim\share\nvim\runtime\plugin\matchparen.vim
+821.797  000.811  000.811: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup.vim
+827.510  000.492  000.492: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\perf.vim
+834.322  001.375  001.375: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\loader.vim
+840.083  001.300  001.300: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\matchparen.vim
+842.993  038.364  033.802: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\plugin\matchup.vim
+847.436  000.638  000.638: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-startuptime\plugin\startuptime.vim
+849.900  000.303  000.303: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\which-key.nvim\plugin\which-key.vim
+852.689  000.308  000.308: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\zen-mode.nvim\plugin\zen-mode.vim
+854.064  119.949: loading packages
+859.798  000.202  000.202: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\after\plugin\matchit.vim
+871.955  007.438  007.438: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-buffer\after\plugin\cmp_buffer.lua
+875.224  000.773  000.773: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-cmdline\after\plugin\cmp_cmdline.lua
+877.851  000.755  000.755: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-emoji\after\plugin\cmp_emoji.lua
+880.032  000.416  000.416: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-nvim-lsp\after\plugin\cmp_nvim_lsp.lua
+882.653  000.795  000.795: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-nvim-lua\after\plugin\cmp_nvim_lua.lua
+884.951  000.538  000.538: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp-path\after\plugin\cmp_path.lua
+887.022  000.550  000.550: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\cmp_luasnip\after\plugin\cmp_luasnip.lua
+898.151  000.855  000.855: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\alpha.lua
+903.234  004.215  004.215: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\autopairs.lua
+904.505  000.300  000.300: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\bookmark.lua
+947.845  042.541  042.541: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\cmp.lua
+954.030  005.158  005.158: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\colorizer.lua
+956.360  001.263  001.263: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\comment.lua
+958.432  000.427  000.427: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\conflict-marker.lua
+959.689  000.382  000.382: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\gist.lua
+960.856  000.348  000.348: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\git-blame.lua
+965.223  003.536  003.536: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\gitlinker.lua
+1032.011  065.843  065.843: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\gitsigns.lua
+1035.052  001.976  001.976: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\hop.lua
+1036.493  000.322  000.322: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\hot-reload.lua
+1037.849  000.428  000.428: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\matchup.lua
+1040.272  001.454  001.454: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\neoscroll.lua
+1097.153  055.398  055.398: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\nvim-tree.lua
+1112.243  014.102  014.102: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\project.lua
+1114.630  001.429  001.429: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\renamer.lua
+1127.077  011.578  011.578: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\session-manager.lua
+1128.921  000.854  000.854: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\sniprun.lua
+1132.481  002.806  002.806: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\spectre.lua
+1136.030  002.758  002.758: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\surround.lua
+1137.241  000.340  000.340: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\symbol-outline.lua
+1138.215  000.352  000.352: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\telescope-file-browser.lua
+1142.870  003.942  003.942: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\telescope.lua
+1147.065  003.030  003.030: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\toggleterm.lua
+1450.198  302.216  302.216: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\treesitter.lua
+1451.614  000.380  000.380: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\ts-context.lua
+1455.779  003.266  003.266: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\whichkey.lua
+1458.916  002.041  002.041: sourcing C:\Users\Zach Hakl\AppData\Local\nvim\after\plugin\zen-mode.lua
+1459.021  059.949: loading after plugins
+1459.068  000.047: inits 3
+1465.904  006.837: reading ShaDa
+1479.112  000.391  000.391: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\ts_engine.vim
+1486.054  000.284  000.284: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\re.vim
+1486.870  020.291: opening buffers
+1492.357  000.799  000.799: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\quick-scope\autoload\quick_scope.vim
+1493.058  005.388: BufEnter autocommands
+1493.066  000.009: editing files in windows
+1500.731  000.620  000.620: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-bookmarks\autoload\bm.vim
+1544.316  050.630: VimEnter autocommands
+1544.328  000.013: UIEnter autocommands
+1643.414  094.014  094.014: sourcing C:\Program Files\Neovim\share\nvim\runtime\autoload\provider\clipboard.vim
+1643.529  005.187: before starting main loop
+1648.581  000.381  000.381: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\pos.vim
+1654.593  001.812  001.812: sourcing C:\Users\Zach Hakl\AppData\Local\nvim-data\site\pack\packer\start\vim-matchup\autoload\matchup\delim.vim
+1659.492  013.770: first screen update
+1659.502  000.011: --- NVIM STARTED ---
