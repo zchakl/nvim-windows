@@ -44,5 +44,5 @@ end
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
 
-vim.g.do_filetype_lua = 1
-vim.g.did_load_filetypes = 0
+--vim.g.do_filetype_lua = 1
+--vim.g.did_load_filetypes = 0
