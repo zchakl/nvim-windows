@@ -85,41 +85,37 @@ local mappings = {
     "Buffers",
   },
   ["e"] = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
-  ["i"] = { "<cmd>TagbarToggle<cr>", "Tagbar"},
   ["w"] = { "<cmd>w!<CR>", "Save" },
   ["q"] = { "<cmd>q!<CR>", "Quit" },
-  ["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
+  ["c"] = { "<cmd>BufDel!<CR>", "Close Buffer" },
   ["f"] = {
     "<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>",
     "Find files",
   },
   ["F"] = { "<cmd>Telescope live_grep theme=ivy<cr>", "Find Text" },
   ["P"] = { "<cmd>lua require('telescope').extensions.projects.projects()<cr>", "Projects" },
-
   h = {
     name = "Harpoon",
-    f = {"<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>", "menu"},
-    a = {"<cmd>lua require('harpoon.mark').add_file()<cr>", "add file"},
-    n = {"<cmd>lua require('harpoon.ui').nav_next()<cr>", "goto next"},
-    p = {"<cmd>lua require('harpoon.ui').nav_prev()<cr>", "goto prev"},
+    f = { "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>", "menu" },
+    a = { "<cmd>lua require('harpoon.mark').add_file()<cr>", "add file" },
+    n = { "<cmd>lua require('harpoon.ui').nav_next()<cr>", "goto next" },
+    p = { "<cmd>lua require('harpoon.ui').nav_prev()<cr>", "goto prev" },
   },
-
   p = {
-    name = "Packer",
-    c = { "<cmd>PackerCompile<cr>", "Compile" },
-    i = { "<cmd>PackerInstall<cr>", "Install" },
-    s = { "<cmd>PackerSync<cr>", "Sync" },
-    S = { "<cmd>PackerStatus<cr>", "Status" },
-    u = { "<cmd>PackerUpdate<cr>", "Update" },
+    name = "Plugins",
+    c = { "<cmd>Lazy clean<cr>", "Clean" },
+    i = { "<cmd>Lazy install<cr>", "Install" },
+    s = { "<cmd>Lazy sync<cr>", "Sync" },
+    m = { "<cmd>Lazy <cr>", "Menu" },
+    u = { "<cmd>Lazy update<cr>", "Update" },
   },
-
   r = {
     name = "Replace",
+    n = { "<cmd>lua require('renamer').rename({empty = true})<cr>", "Rename" },
     r = { "<cmd>lua require('spectre').open()<cr>", "Replace" },
     w = { "<cmd>lua require('spectre').open_visual({select_word=true})<cr>", "Replace Word" },
     f = { "<cmd>lua require('spectre').open_file_search()<cr>", "Replace Buffer" },
   },
-
   g = {
     name = "Git",
     g = { "<cmd>lua _LAZYGIT_TOGGLE()<CR>", "Lazygit" },
@@ -142,39 +138,37 @@ local mappings = {
       "Diff",
     },
   },
-
   l = {
     name = "LSP",
     a = { "<cmd>lua vim.lsp.buf.code_action()<cr>", "Code Action" },
     d = {
-      "<cmd>Telescope lsp_document_diagnostics<cr>",
+      "<cmd>Telescope diagnostics bufnr=0<cr>",
       "Document Diagnostics",
     },
     w = {
-      "<cmd>Telescope lsp_workspace_diagnostics<cr>",
+      "<cmd>Telescope diagnostics<cr>",
       "Workspace Diagnostics",
     },
-    f = { "<cmd>lua vim.lsp.buf.formatting()<cr>", "Format" },
+    f = { "<cmd>lua vim.lsp.buf.format({async = false})<cr>", "Format" },
     i = { "<cmd>LspInfo<cr>", "Info" },
-    I = { "<cmd>LspInstallInfo<cr>", "Installer Info" },
+    I = { "<cmd>Mason<cr>", "Installer Info" },
     j = {
-      "<cmd>lua vim.lsp.diagnostic.goto_next()<CR>",
+      "<cmd>lua vim.diagnostic.goto_next()<CR>",
       "Next Diagnostic",
     },
     k = {
-      "<cmd>lua vim.lsp.diagnostic.goto_prev()<cr>",
+      "<cmd>lua vim.diagnostic.goto_prev()<cr>",
       "Prev Diagnostic",
     },
     l = { "<cmd>lua vim.lsp.codelens.run()<cr>", "CodeLens Action" },
-    q = { "<cmd>lua vim.lsp.diagnostic.set_loclist()<cr>", "Quickfix" },
-    r = { "<cmd>lua vim.lsp.buf.rename()<cr>", "Rename" },
+    q = { "<cmd>lua vim.diagnostic.set_loclist()<cr>", "Quickfix" },
+    r = { "<cmd>lua vim.buf.rename()<cr>", "Rename" },
     s = { "<cmd>Telescope lsp_document_symbols<cr>", "Document Symbols" },
     S = {
       "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>",
       "Workspace Symbols",
     },
   },
-
   s = {
     name = "Search",
     b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
@@ -186,7 +180,6 @@ local mappings = {
     k = { "<cmd>Telescope keymaps<cr>", "Keymaps" },
     C = { "<cmd>Telescope commands<cr>", "Commands" },
   },
-
   t = {
     name = "Terminal",
     n = { "<cmd>lua _NODE_TOGGLE()<cr>", "Node" },
@@ -200,7 +193,6 @@ local mappings = {
     ["3"] = { "<cmd>3ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
     ["4"] = { "<cmd>4ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
   },
-
   d = {
     name = "Debug",
     c = { "<cmd>lua require'dap'.continue()<CR>", "Continue" },
@@ -212,10 +204,10 @@ local mappings = {
     j = { "<cmd>lua require'dap'.step_into()<CR>", "Step Into" },
     k = { "<cmd>lua require'dap'.step_out()<CR>", "Step Out" },
     w = { "<cmd>lua require'dap.ui.widgets'.hover()<CR>", "Widgets" },
-    n = { "<cmd>lua local widgets=require'dap.ui.widgets';widgets.centered_float(widgets.scopes)<CR>" , "Info" },
-    u = { "<cmd>lua require'dap'.up()<CR>", "Up"},
-    d = { "<cmd>lua require'dap'.down()<CR>", "Down"},
-    g = { "<cmd>lua require'dapui'.toggle()<CR>", "Gui"}
+    n = { "<cmd>lua local widgets=require'dap.ui.widgets';widgets.centered_float(widgets.scopes)<CR>", "Info" },
+    u = { "<cmd>lua require'dap'.up()<CR>", "Up" },
+    d = { "<cmd>lua require'dap'.down()<CR>", "Down" },
+    g = { "<cmd>lua require'dapui'.toggle()<CR>", "Gui" }
   }
 }
 

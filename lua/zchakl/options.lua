@@ -12,7 +12,7 @@ local options = {
   showmode = false,                        -- we don't need to see things like -- INSERT -- anymore
   showtabline = 2,                         -- always show tabs
   smartcase = true,                        -- smart case
-  cindent = true,                      -- make indenting smarter again
+  cindent = true,                          -- make indenting smarter again
   splitbelow = true,                       -- force all horizontal splits to go below current window
   splitright = true,                       -- force all vertical splits to go to the right of current window
   swapfile = false,                        -- creates a swapfile
@@ -24,6 +24,9 @@ local options = {
   expandtab = true,                        -- convert tabs to spaces
   shiftwidth = 2,                          -- the number of spaces inserted for each indentation
   tabstop = 2,                             -- insert 2 spaces for a tab
+  autoindent = true,                       -- auto indenting
+  copyindent = true,
+  preserveindent = true,
   cursorline = true,                       -- highlight the current line
   number = true,                           -- set numbered lines
   relativenumber = true,                  -- set relative numbered lines
@@ -44,5 +47,5 @@ end
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
 
---vim.g.do_filetype_lua = 1
---vim.g.did_load_filetypes = 0
+vim.g.do_filetype_lua = 1
+vim.g.did_load_filetype = 0
