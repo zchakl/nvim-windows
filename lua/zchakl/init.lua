@@ -1,0 +1,7 @@
+require("zchakl.options")
+require("zchakl.keymap")
+require("zchakl.lazy")
+require("zchakl.colorscheme")
+require("zchakl.autocommands")
+require("zchakl.lsp")
+--require("zchakl.dap")
